@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:text="http://android-er.blogspot.com/"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startthread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Thread"/>
+    <Button
+        android:id="@+id/stopthread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Thread"/>
+    <EditText
+        android:id="@+id/msgtosend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="msg to send..." />
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send msg to thread"/>
+    <TextView
+        android:id="@+id/cntreceived"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="26dp"/>
+    <TextView
+        android:id="@+id/msgreceived"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+</LinearLayout>
