@@ -9,7 +9,7 @@ import android.widget.Button;
 
 
 
-public class ThreadHandler extends AppCompatActivity implements View.OnClickListener {
+public class ThreadHandlerActivity extends AppCompatActivity implements View.OnClickListener {
     Handler mHandler;
     ProgressDialog mProgressBar;
     Button button1, button2, button3;
